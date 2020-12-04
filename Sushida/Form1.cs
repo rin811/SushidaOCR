@@ -19,6 +19,8 @@ namespace Sushida
         StatusForm StatusWindow = new StatusForm();
         Debug status = new Debug();
 
+        string AppName = "SushidaOCR";
+
         bool isStarted = false;//実行中か
         bool isAutoMiss = false;//あえてミスする
 
@@ -30,11 +32,11 @@ namespace Sushida
 
             if (isStarted)
             {
-                this.Text = this.Text + " - F1で停止";
+                this.Text = AppName + " - 実行中(F1で切り替え)";
             }
             else
             {
-                this.Text = this.Text + " - F1で開始";
+                this.Text = AppName + " - 停止中(F1で切り替え)";
             }
             
             StatusWindow.Show();
@@ -50,8 +52,7 @@ namespace Sushida
         {
             var tesseract = new Tesseract.TesseractEngine("TrainData", "eng");
             Tesseract.Page page = tesseract.Process(img);
-
-            Text = page.GetText();
+            
             return page.GetText();
 
             
@@ -85,17 +86,6 @@ namespace Sushida
             Task<string> task = Task.Run(() => GetOCR(GetScr()));
             await Task.WhenAll(task);
             string str = task.Result;
-
-            //string str = GetOCR(GetScr());
-
-            if (isStarted)
-            {
-                this.Text = this.Text + " - F1で停止";
-            }
-            else
-            {
-                this.Text = this.Text + " - F1で開始";
-            }
 
             status.ScanResult = str;
 
@@ -138,14 +128,16 @@ namespace Sushida
             if (e.KeyCode == Keys.F1)
             {
                 isStarted = !isStarted;
-
+                status.isRunning = isStarted;
                 if (isStarted)
                 {
+                    this.Text = AppName + " - 実行中(F1で切り替え)";
                     timer1.Enabled = true;
                     timer1_Tick(null,null);
                 }
                 else
                 {
+                    this.Text = AppName + " - 停止中(F1で切り替え)";
                     timer1.Enabled = false;
                 }
 

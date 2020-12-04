@@ -8,8 +8,22 @@ namespace Sushida
 {
     public class Debug
     {
-        public string ScanResult;
-        public bool isMissedScan;
+        public bool isRunning = false;
+        public string ScanResult = "";
+        public bool isMissedScan = false;
         //public string 
+
+        public Debug()
+        {
+            isRunning = false;
+            ScanResult = "";
+            isMissedScan = false;
+        }
+    }
+
+    enum State
+    {
+        Stopped,
+        Running
     }
 }

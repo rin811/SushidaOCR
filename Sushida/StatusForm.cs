@@ -17,7 +17,8 @@ namespace Sushida
             InitializeComponent();
             this.TopMost = true;
 
-            label1.Text = "スキャン結果\n誤認識";
+            //label1.Text = "状態\nスキャン結果\n誤認識";
+            SetUI(new Debug());
         }
 
         private void StatusForm_Load(object sender, EventArgs e)
@@ -27,7 +28,15 @@ namespace Sushida
 
         public void SetUI(Debug debug)
         {
-            label1.Text = $"スキャン結果: {debug.ScanResult}\n誤認識: {debug.isMissedScan}";
+            string StateConv;
+            if (debug.isRunning)
+                StateConv = "実行しています";
+            else
+                StateConv = "停止しています";
+
+            label1.Text = $"状態: {StateConv}\n" +
+                $"スキャン結果: {debug.ScanResult}\n" +
+                $"誤認識: {debug.isMissedScan}";
         }
     }
 }
