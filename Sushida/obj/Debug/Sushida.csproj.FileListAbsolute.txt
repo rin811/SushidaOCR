@@ -16,3 +16,4 @@ C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\bin\Debug\x64\tessera
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\bin\Debug\Tesseract.dll
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\obj\Debug\Sushida.csproj.CopyComplete
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\bin\Debug\TrainDataHigh\eng.traineddata
+C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\obj\Debug\Sushida.StatusForm.resources
