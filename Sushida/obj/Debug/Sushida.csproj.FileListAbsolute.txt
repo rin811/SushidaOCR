@@ -17,3 +17,10 @@ C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\bin\Debug\Tesseract.d
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\obj\Debug\Sushida.csproj.CopyComplete
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\bin\Debug\TrainDataHigh\eng.traineddata
 C:\Users\rin\Documents\VisualStudioProject\Sushida\Sushida\obj\Debug\Sushida.StatusForm.resources
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.csprojAssemblyReference.cache
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.Form1.resources
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.Properties.Resources.resources
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.StatusForm.resources
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.csproj.GenerateResource.cache
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.exe
+C:\Users\itach\Desktop\Program\Sushida\obj\Debug\Sushida.pdb

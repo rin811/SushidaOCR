@@ -18,7 +18,7 @@ namespace Sushida
         PictureBox TransparentRect = new PictureBox();
         StatusForm StatusWindow = new StatusForm();
         Debug status = new Debug();
-
+        
         string AppName = "SushidaOCR";
 
         bool isStarted = false;//実行中か
@@ -38,7 +38,9 @@ namespace Sushida
             {
                 this.Text = AppName + " - 停止中(F1で切り替え)";
             }
-            
+
+            status.isMissedScan = isAutoMiss;
+
             StatusWindow.Show();
             StatusWindow.Location = new Point(Location.X + Size.Width + 1, Location.Y);
         }
