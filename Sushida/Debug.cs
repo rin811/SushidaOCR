@@ -11,13 +11,15 @@ namespace Sushida
         public bool isRunning = false;
         public string ScanResult = "";
         public bool isMissedScan = false;
+        public bool isDummyMissing = false;
+        public bool isUseHighTrainData = false;
         //public string 
 
         public Debug()
         {
-            isRunning = false;
-            ScanResult = "";
-            isMissedScan = false;
+            //isRunning = false;
+            //ScanResult = "";
+            //isMissedScan = false;
         }
     }
 
