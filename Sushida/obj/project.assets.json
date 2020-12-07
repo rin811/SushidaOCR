@@ -110,7 +110,7 @@
           "lib/net45/_._": {}
         },
         "build": {
-          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+          "build/net461/System.Runtime.WindowsRuntime.targets": {}
         }
       },
       "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
@@ -250,7 +250,7 @@
           "lib/net45/_._": {}
         },
         "build": {
-          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+          "build/net461/System.Runtime.WindowsRuntime.targets": {}
         }
       },
       "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
@@ -390,7 +390,7 @@
           "lib/net45/_._": {}
         },
         "build": {
-          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+          "build/net461/System.Runtime.WindowsRuntime.targets": {}
         }
       },
       "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
@@ -530,7 +530,7 @@
           "lib/net45/_._": {}
         },
         "build": {
-          "buildTransitive/net461/System.Runtime.WindowsRuntime.targets": {}
+          "build/net461/System.Runtime.WindowsRuntime.targets": {}
         }
       },
       "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
@@ -564,11 +564,10 @@
   },
   "libraries": {
     "Microsoft.Windows.SDK.Contracts/10.0.19041.1": {
-      "sha512": "sgDwuoyubbLFNJR/BINbvfSNRiglF91D+Q0uEAkU4ZTO5Hgbnu8+gA4TCc65S56e1kK7gvR1+H4kphkDTr+9bw==",
+      "sha512": "P2LNEPsF93ANWmUEe7dGTZu6lU/Lg1pS7AmE/WKZBdL8kmI4rGYSOTxi5RGTxeEXpj3qGeGZWMliTmNradXAaA==",
       "type": "package",
       "path": "microsoft.windows.sdk.contracts/10.0.19041.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/Microsoft.Windows.SDK.Contracts.props",
         "build/Microsoft.Windows.SDK.Contracts.targets",
@@ -750,11 +749,10 @@
       ]
     },
     "System.Runtime.WindowsRuntime/4.6.0": {
-      "sha512": "IWrs1TmbxP65ZZjIglNyvDkFNoV5q2Pofg5WO7I8RKQOpLdFprQSh3xesOoClBqR4JHr4nEB1Xk1MqLPW1jPuQ==",
+      "sha512": "WyPgOkMsddiqPSbgZ5QQoaDUEdTAwZ/devedfpUxGHc3hIZyptrnympSWcbB4pTlIM6A1XW7wrKaoE+k6PaXWw==",
       "type": "package",
       "path": "system.runtime.windowsruntime/4.6.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -830,11 +828,10 @@
       ]
     },
     "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
-      "sha512": "r4tNw5v5kqRJ9HikWpcyNf3suGw7DjX93svj9iBjtdeLqL8jt9Z+7f+s4wrKZJr84u8IMsrIjt8K6jYvkRqMSg==",
+      "sha512": "Zn7xWimOJOBS9gdJlkUt4rUWE1+7WS0YMR23As68qCMHt8QAxtOXOzsyq0AURaOsFs1lwpIjIfWMhmSyz/CHvA==",
       "type": "package",
       "path": "system.runtime.windowsruntime.ui.xaml/4.6.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -890,11 +887,10 @@
       ]
     },
     "Tesseract/4.1.1": {
-      "sha512": "abufaW6N3P7TGJPI3RNTMSzS1ycnE1w6aW/Q+Hco/wCgm+bXUgR87JsGELvTcm2FISXGlQgs+PvYMVo9SlcPfg==",
+      "sha512": "5NXaAp/ZulngCQ4CpSI+iysQA19ORLiOTHRym/vqwznfxKPtcy/28Yhdft0XWyVnjiggPi2ORbvffgY8WcTLjQ==",
       "type": "package",
       "path": "tesseract/4.1.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/Tesseract.targets",
         "lib/net40/Tesseract.dll",
@@ -917,20 +913,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itach\\.nuget\\packages\\": {}
+    "C:\\Users\\rin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itach\\Desktop\\Program\\Sushida\\Sushida.csproj",
+      "projectUniqueName": "C:\\Users\\rin\\Documents\\VisualStudioProject\\Sushida\\Sushida\\Sushida.csproj",
       "projectName": "Sushida",
-      "projectPath": "C:\\Users\\itach\\Desktop\\Program\\Sushida\\Sushida.csproj",
-      "packagesPath": "C:\\Users\\itach\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itach\\Desktop\\Program\\Sushida\\obj\\",
+      "projectPath": "C:\\Users\\rin\\Documents\\VisualStudioProject\\Sushida\\Sushida\\Sushida.csproj",
+      "packagesPath": "C:\\Users\\rin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rin\\Documents\\VisualStudioProject\\Sushida\\Sushida\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\itach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -957,7 +953,12 @@
             "target": "Package",
             "version": "[4.1.1, )"
           }
-        }
+        },
+        "imports": [
+          "uap10.0.19041"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
       }
     },
     "runtimes": {

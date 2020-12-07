@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Windows.Media.Ocr;
-using Windows.Graphics.Imaging;
 using Tesseract;
 
 namespace Sushida
@@ -40,6 +38,7 @@ namespace Sushida
             }
 
             status.isMissedScan = isAutoMiss;
+            status.Interval = timer1.Interval;
 
             StatusWindow.Show();
             StatusWindow.Location = new Point(Location.X + Size.Width + 1, Location.Y);

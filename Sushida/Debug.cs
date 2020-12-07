@@ -13,6 +13,7 @@ namespace Sushida
         public bool isMissedScan = false;
         public bool isDummyMissing = false;
         public bool isUseHighTrainData = false;
+        public int Interval = 400;
         //public string 
 
         public Debug()
