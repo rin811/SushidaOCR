@@ -1,6 +1,6 @@
 # SushidaOCR
 寿司打を文字認識して自動入力します(寿司打以外でも動作します)</br>
-"SushidaOCR" is a Tools of automatically input for typing-game.
+"SushidaOCR" is a tools of automatically input for typing-game.
 
 # How To Use
 ビルド済み(Sushida\bin\Debug\Sushida.exe)</br>
