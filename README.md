@@ -1,3 +1,4 @@
+![Logo](https://user-images.githubusercontent.com/75470007/101486872-aa524100-39a0-11eb-84d3-9af130666597.png)
 # SushidaOCR
 寿司打を文字認識して自動入力します(寿司打以外でも動作します)</br>
 "SushidaOCR" is a tools of automatically input for typing-game.
